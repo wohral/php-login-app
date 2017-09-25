@@ -1,2 +1,6 @@
 # Ignore of PHP Storm IDE meta files
 .idea
+
+
+# config file
+app/config/config.php
