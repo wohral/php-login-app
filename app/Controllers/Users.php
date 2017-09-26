@@ -10,13 +10,23 @@ namespace App\Controllers;
 
 use App\Core\Controller;
 
-class Home extends Controller
+class Users extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+
+
+
+        
+    }
 
     public function index()
     {
+
+
         require APP . 'views/_layout/header.php';
-        require APP . 'views/home/index.php';
+        require APP . 'views/users/index.php';
         require APP . 'views/_layout/footer.php';
     }
 
